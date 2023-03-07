@@ -1,0 +1,135 @@
+@media screen and (max-width: 1210px) {
+    .FbContent {
+      margin-right: 150px;
+      margin-left: 100px;
+    }
+    #centerNav ul li{
+      min-width: 100px;
+  
+    }
+  
+  }
+  @media screen and (max-width: 1090px) {
+    #centerNav ul li{
+      display: flex;
+  
+    }
+    .phoneOnly {
+      display: flex;
+    }
+    #centerNav ul .phoneOnly{
+      display: flex;
+      min-width: 50px;
+  
+    }
+    #sideBarLeft{
+     display: none;
+    }
+    #sideBarRight{
+      min-width: 250px;
+    }
+    #mainContent{
+      min-width: 70%;
+    }
+    .FbContent {
+      margin-left: 0px;
+    }
+    #settings ul .wideScreenOnly{
+      display: none;
+    }
+    .wideScreenOnly{
+      display: none;
+      overflow: visible;
+    }
+    #centerNav ul .phoneOnly{
+      display: flex;
+      min-width: 50px;
+  
+    }
+    
+  }
+  
+  @media only screen and (max-width: 940px){
+    #centerNav ul li{
+      display: none;
+    }
+    #search{
+      width: 50%;
+    }
+    #settings{
+      width: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 940px){
+    .FbContent {
+      margin-right: 150px;
+      margin-left: 0px;
+    }
+    
+    #mainContent{
+      min-width:80%;
+      transform: translateX(-10%);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    .wideScreenOnly{
+      display: none;
+      overflow: visible;
+    }
+   #sideBarRight{
+      display: none;
+      overflow: visible;
+    }
+  #sideBarLeft {
+      display: none;
+      width: 0;
+    }
+    #centerNav ul li{
+      display: none;
+    }
+    #centerNav ul .phoneOnly{
+      display: flex;
+      min-width: 30px;
+  
+    }
+    #search{
+      margin-right: 0;
+    }
+    #search div{
+      margin-left: 15px;
+    }
+    #settings ul li{
+        display: flex;
+        min-width: 50px;
+    }
+    .phoneOnly {
+      display: flex;
+    }
+    #settings ul .wideScreenOnly{
+      display: none;
+    }
+    #mainContent{
+        max-width: 100%;
+        margin: 5px;
+        transform: translateX(0%);
+      }
+  
+      .FBpost{
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .FbContent{
+        margin-left: 0;
+        margin-right: 0;
+      }
+      p{
+        font-size: 12px;
+      }
+  }

@@ -4,9 +4,516 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Facebook copycat responsive</title>
 </head>
 <body>
-    HATDOG sa jollibee
+    <header class="borderStyle" id="mainHeader">
+        <div id="search">
+            <img src="images/Facebook_Logo_(2019).png" alt="logo" id="logo" >
+            <input type="text" placeholder="&#128269 Search Facebook" class="wideScreenOnly">
+            <div class="phoneOnly">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div id="centerNav">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-house"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-film"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-store"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-users"></i>
+                </li>
+                <li class="wideScreenOnly">
+                    <i class="fa-solid fa-gamepad"></i>
+                </li>
+                <li class="phoneOnly">
+                    <i class="fa-solid fa-bars"></i> 
+                </li>
+            </ul>
+        </div>
+        <div id="settings">
+            <ul>
+                <li class="phoneOnly">
+                    <i class="fa-regular fa-plus"></i> 
+                </li>
+                <li class="wideScreenOnly">
+                    <ion-icon name="Menu"></ion-icon>
+                </li>
+                <li>
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                </li>
+                <li>
+                    <ion-icon name="Notifications"></ion-icon>
+                </li>              
+                <li >                   
+                    <img src="images/fbprof.jpg" alt="pfp" class="pfp">	                
+                </li>
+                    
+            </ul>
+            
+        </div>
+        
+    </header>
+    <main class="contentBody">
+        <section class="borderStyle" id="sideBarLeft">
+            <ul>
+                <li>
+                    <img src="images/fbprof.jpg" alt="pfp" class="pfp">
+                    <p>
+                        Prime Christian Neri
+                    </p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user-group"></i>
+                    <p>Friends</p>
+                </li>
+                <li>
+                    <i class="fa-sharp fa-solid fa-clock"></i>
+                    <p>Memories</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-store"></i>
+                    <p>Marketplace</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-film"></i>
+                    <p>Watch</p>
+                </li>
+            </ul>
+            <hr>
+            <h3>
+                Your Shortcuts
+            </h3>
+            <ul>
+                <li>
+                    <img src="images/dragoncity.png" alt="logo" class="logo">
+                    <p>Dragon City</p>
+                </li>
+                <li>
+                    <img src="images/loa2.jpg" alt="logo" class="logo">
+                    <p>League of Angels II</p>
+                </li>
+                <li>
+                    <img src="images/ballpool.png" alt="group photo" class="logo">
+                    <p>8 Ball Pool</p>
+                </li>
+                <li>
+                    <img src="images/nwhf.jpg" alt="group photo" class="logo">
+                    <p>Ninja World x High Five</p>
+                </li>
+                <li>
+                    <img src="images/tetris.png" alt="logo" class="logo">
+                    <p>Tetris</p>
+                </li>
+            </ul>
+            <br>
+            <br>
+            <footer>
+                
+                <p>Privacy  · Terms  · Advertising  · Ad Choices   · Cookies  · More · Meta © 2023</p>
+            </footer>
+        </section>
+        <section class="borderStyle" id="mainContent">
+            <div class="FbContent" id="myDay">
+                <section id="myDayNav">
+                    <div class="myDayItem">
+                        <i class="fa-solid fa-book-open" id="stories"></i>
+                        <p>Stories</p>
+                    </div>
+                    <div class="myDayItem">
+                        <i class="fa-solid fa-film"></i>
+                        <p>Reels</p>
+                    </div>
+                </section>
+                <hr>
+
+                <div id='myDayContent'>
+                    <ul>
+                    <li>
+                        <div id="myDayPost">
+                            <img src="images/fbprof.jpg" alt="selfmyday">
+                        <p>Create Story +</p>
+                        </div>  
+                    </li>
+                    <li style="background-image: url(images/nicole1.jpg); background-size: cover;">
+                        <div class="myDayUser">
+                            <img src="images/nicole.jpg" alt="" class="pfp">
+                        <p>Nicole Diones</p>
+                        </div>
+
+                    </li>
+                    <li style="background-image: url(images/rhusty1.jpg); background-size: cover;">
+                        <div class="myDayUser">
+                            <img src="images/rhusty.jpg" alt="" class="pfp">
+                        <p>Jay Rhusty</p>
+                        </div>
+                        
+                    </li>
+                    <li style="background-image: url(images/jill1.jpg); background-size: cover;">
+                        <div class="myDayUser">
+                            <img src="images/jill.jpg" alt="" class="pfp">
+                        <p>Jill Ann</p>
+                        </div>
+                        
+                    </li>
+                    <li style="background-image: url(images/gian1.jpg); background-size: cover;">
+                        <div class="myDayUser">
+                            <img src="images/gian.jpg" alt="" class="pfp">
+                            <p>Gian Marco Neri</p>
+                        </div>                
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="FbContent " id="createPost">
+                <div id="mainPost">
+                    <img src="images/fbprof.jpg" alt="pfp" class="pfp">
+                    <input type="button" value="   What's on your mind, Prime Christian?">
+                </div>
+                <hr>
+                <div id="postNav">
+                    <div class="postItem">
+                        <i class="fa-solid fa-video"></i>
+                        <p>
+                            Live video
+                        </p>
+                    </div>
+                    <div class="postItem">
+                        <i class="fa-solid fa-images"></i>
+                        <p>
+                            Photo/Video
+                        </p>
+                    </div>
+                    <div class="postItem">
+                        <i class="fa-sharp fa-solid fa-flag"></i>
+                        <p>
+                            Life event
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="FbContent FBpost">
+                <div class="userPoster">
+                    <img src="images/fbprof.jpg" alt="pfp" class="pfp">
+                    <section class="posterAndTime">
+                        <p>Prime Christian Neri</p>
+                        <p>4h · <i class="fa-solid fa-globe"></i></p>
+                    </section>
+                </div>
+                <p>#Notojeepneyphaseout</p>
+                <div id="imageTextPostMain">
+                    <h1>
+                        #Notojeepneyphaseout
+                    </h1>
+                </div>
+                <div class="reactions">
+                    <i class="fa-sharp fa-solid fa-heart"></i>
+                    <p>2</p>
+                </div>
+                <section class="userPostNav">
+                    <hr> 
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <p> Like</p> 
+                        </li>
+                        <li>
+                            <i class="fa-sharp fa-solid fa-comment"></i>
+                        <p> Comment</p>
+                        </li>
+                        <li>
+                            <i class="fa-sharp fa-solid fa-share"></i>
+                        <p> Share</p>
+                        </li>
+                    </ul>
+                    <hr>
+                </section>
+                <div class="firstComment">
+                    <img src="images/rhusty.jpg" alt="pfp" class="pfp">
+                    <div class="commentMain">
+                        <div class="commentBox">
+                            <p>
+                                Jay Rhusty
+                            </p>
+                            <p>!!!</p>
+                        </div>
+                        <div class="outBoxNav">
+                            <p class="commentSelection">
+                                Like
+                            </p>
+                            <p class="commentSelection">
+                                Reply
+                            </p>
+                            <p> 1h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="userComment">
+                    <img src="images/fbprof.jpg" alt="pfp" class="pfp">
+                    <input type="text" placeholder=" Write a Comment">
+                </div>
+            </div>
+            <div class="FbContent FBpost">
+                <div class="userPoster">
+                    <img src="images/fbprof.jpg" alt="pfp" class="pfp">
+                    <section class="posterAndTime">
+                        <p>Prime Christian Neri</p>
+                        <p>5h · <i class="fa-solid fa-globe"></i></p>
+                    </section>
+                </div>
+                <div id="imagePostMain">
+                    <img src="images/post.jpg" alt="funny Post">
+                </div>
+                <div class="reactions">
+                    <i class="fa-solid fa-face-grin-squint-tears"></i>
+                    <p> 10</p>
+                </div>
+                <section class="userPostNav">
+                    <hr> 
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <p> Like</p> 
+                        </li>
+                        <li>
+                            <i class="fa-sharp fa-solid fa-comment"></i>
+                        <p> Comment</p>
+                        </li>
+                        <li>
+                            <i class="fa-sharp fa-solid fa-share"></i>
+                        <p> Share</p>
+                        </li>
+                    </ul>
+                    <hr>
+                </section>
+                <div class="userComment">
+                    <img src="images/fbprof.jpg" alt="pfp" class="pfp">
+                    <input type="text" placeholder=" Write a Comment">
+                </div>
+            </div>
+
+            <div class="FbContent FBpost">
+                <div class="userPoster">
+                    <img src="images/fbprof.jpg" alt="pfp" class="pfp">
+                    <section class="posterAndTime">
+                        <p>Prime Christian Neri</p>
+                        <p>1d · <i class="fa-solid fa-globe"></i></p>
+                    </section>
+                </div>
+                <div id="sharedPostMain">
+                        <section id="sharedPoster">
+                        <img src="images/jill.jpg" alt="pfp" class="pfp">
+                        <div if="sharedNameAndTime">
+                            <p>Jill Ann</p>
+                        <p>2d · <i class="fa-solid fa-globe"></i></p>
+                        </div>
+                        </section>
+                        <img src="images/jill1.jpg" alt="shared post">
+                    </div>
+                    
+                <div class="reactions">
+                    <i class="fa-solid fa-heart"></i>
+                    <p> 50</p>
+                </div>
+                <section class="userPostNav">
+                    <hr> 
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-thumbs-up"></i>
+                            <p> Like</p> 
+                        </li>
+                        <li>
+                            <i class="fa-sharp fa-solid fa-comment"></i>
+                        <p> Comment</p>
+                        </li>
+                        <li>
+                            <i class="fa-sharp fa-solid fa-share"></i>
+                        <p> Share</p>
+                        </li>
+                    </ul>
+                    <hr>
+                </section>
+                <div class="firstComment">
+                    <img src="images/kakay.jpg" alt="pfp" class="pfp">
+                    <div class="commentMain">
+                        <div class="commentBox">
+                            <p>
+                                Kathleen Badilla Felisilda
+                            </p>
+                            <p>#Arise</p>
+                        </div>
+                        <div class="outBoxNav">
+                            <p class="commentSelection">
+                                Like
+                            </p>
+                            <p class="commentSelection">
+                                Reply
+                            </p>
+                            <p> 23h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="userComment">
+                    <img src="images/fbprof.jpg" alt="pfp" class="pfp">
+                    <input type="text" placeholder=" Write a Comment">
+                </div>
+            </div>
+        </section>
+        <section class="borderStyle" id="sideBarRight" >
+            <div id="fRequestPages">
+                <h1>Your Pages and Profile</h1>
+                <p>Randoom</p>
+                <p> <i class="fa-regular fa-circle-user"></i> Switch Into Page</p>
+                <p> <i class="fa-solid fa-bullhorn"></i> Create Promotion</p>
+            </div>
+            <div id="fRequestHeader">   
+                <h3>
+                    Friend Requests
+                </h3>
+                <p>
+                    See All
+                </p>
+            </div>
+            <div id="fRequestMain">
+                <img src="images/zayn.jpg" alt="pfp" class="pfp">
+                <div id="fRequestContent">
+                    <p>Zayn Malik</p>
+                    <p>3 Mutual Friend</p>
+                    <div id="fRequestChoice">
+                        <input type="button" value="Confirm" id="Confirm">
+                        <input type="button" value="Delete">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h3>
+                Birthdays
+            </h3>
+            <div id="birthdayContent">
+                <i class="fa-solid fa-gift"></i>
+                <p >
+                    <span>Joush and 5 others</span> have birthdays today.
+                </p>
+            </div>
+           
+            <hr>
+            <div id="contactHeader">
+                <h3>Contacts</h3>
+                <ul>
+                    <li><i class="fa-solid fa-video"></i></li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                    <li><i class="fa-solid fa-ellipsis"></i></li>
+                </ul>
+            </div>
+            <div id="contactMain">
+                <ul>
+                    <li>
+                        <img src="images/nicole.jpg" alt="pfp" class="pfp">
+                        <p>Nicole Diones</p>
+                    </li>
+                    <li>
+                        <img src="images/rhusty.jpg" alt="pfp" class="pfp">
+                        <p>Jay Rhusty</p>
+                    </li>
+                    <li>
+                        <img src="images/jill.jpg" alt="pfp" class="pfp">
+                        <p>Jill Ann</p>
+                    </li>
+                    <li>
+                        <img src="images/gian.jpg" alt="pfp" class="pfp">
+                        <p>Gian Marco Neri</p>
+                    </li>
+                    <li>
+                        <img src="images/jimboy.jpg" alt="pfp" class="pfp">
+                        <p>Jimboy Mendez</p>
+                    </li>
+                    <li>
+                        <img src="images/gerson.jpg" alt="pfp" class="pfp">
+                        <p>Gerson Soner</p>
+                    </li>
+                    <li>
+                        <img src="images/kakay.jpg" alt="pfp" class="pfp">
+                        <p>Kathleen Badilla Felisilda</p>
+                    </li>
+                    <li>
+                        <img src="images/rhona.jpg" alt="pfp" class="pfp">
+                        <p>Rhona Mae PS</p>
+                    </li>
+                    <li>
+                        <img src="images/loge.jpg" alt="pfp" class="pfp">
+                        <p>Logemer Lauron</p>
+                    </li>
+                    <li>
+                        <img src="images/jared.jpg" alt="pfp" class="pfp">
+                        <p>Jared Rara</p>
+                    </li>
+                    <li>
+                        <img src="images/jefferson.jpg" alt="pfp" class="pfp">
+                        <p>Jefferson Sabejon</p>
+                    </li>
+                    <li>
+                        <img src="images/joush.jpg" alt="pfp" class="pfp">
+                        <p>Joush Rivera</p>
+                    </li>
+                    <li>
+                        <img src="images/josh.jpg" alt="pfp" class="pfp">
+                        <p>Josh Delos cielos</p>
+                    </li>
+                    <li>
+                        <img src="images/phia.jpg" alt="pfp" class="pfp">
+                        <p>Phia Pholin Perez</p>
+                    </li>
+                    <li>
+                        <img src="images/gerald.jpg" alt="pfp" class="pfp">
+                        <p>Gerald Reyes</p>
+                    </li>
+                    <li>
+                        <img src="images/ishi.jpg" alt="pfp" class="pfp">
+                        <p>Ishi Mari Hormillosa Lumaban</p>
+                    </li>
+                    <li>
+                        <img src="images/chan.jpg" alt="pfp" class="pfp">
+                        <p>Christian Jay Abragan</p>
+                    </li>
+                    <li>
+                        <img src="images/rey.jpg" alt="pfp" class="pfp">
+                        <p>Rey Feliciano Cabaneros</p>
+                    </li>
+                    <li>
+                        <img src="images/christopher.jpg" alt="pfp" class="pfp">
+                        <p>Christopher John Cuarteros</p>
+                    </li>
+                </ul>
+            </div>
+            <h3>Groups</h3>
+            <div id="groups">
+                <ul>
+                    <li>
+                        <img src="images/2r8.jpg" alt="group" class="logo">
+                        <p>IT2R8</p>
+                    </li>
+                    <li>
+                        <img src="images/r2.jpg" alt="group" class="logo">
+                        <p>IT2R2 2ND-SEM 2022-23</p>
+                    </li>
+                    <li>
+                        <img src="images/r28.jpg" alt="group" class="logo">
+                        <p>R8 sa R2</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d4a9f52e1a.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
